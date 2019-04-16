@@ -16,7 +16,7 @@ prezzo = dati[1] * 0.21;
 
 if (dati[0] < 18){
   sconto = (prezzo*20)/100;
-  prezzo= prezzo - sconto;
+  prezzo = prezzo - sconto;
 }else if(dati[0] >59){
   sconto = (prezzo*60)/100;
   prezzo = prezzo - sconto;
