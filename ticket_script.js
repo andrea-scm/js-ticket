@@ -26,4 +26,4 @@ if (dati[0] < 18){
 
 document.getElementById('età').innerHTML = dati[0];
 document.getElementById('km').innerHTML = dati[1];
-document.getElementById('prezzo').innerHTML = prezzo + '€';
+document.getElementById('prezzo').innerHTML = prezzo.toFixed(2) + '€';
